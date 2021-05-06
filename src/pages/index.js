@@ -1,33 +1,34 @@
 import React from 'react';
 
+import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
+import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
+import Features from '../components/features';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Features from '../components/features';
 import Social from '../components/social';
 import SponsorPlatinum from '../components/sponsor-platinum';
 import SponsorPlatinum2 from '../components/sponsor-platinum2';
-import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
-import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        title="Optimization &amp; CDN for images, CSS, JavaScript, open source, and much more"
-        keywords={[
-          `statically`,
-          `open source`,
-          `free image cdn`,
-          `free wordpress cdn`,
-          `image optimization`,
-          `image processing`,
-          `static files`,
-          `optimization`,
-          `cdn`,
-          'web tools',
-          'web performance',
-          'web optimization',
-        ]}
+  title =
+      "Optimization &amp; CDN for images, CSS, JavaScript, open source, and much more"
+        keywords={
+    [`statically`,
+     `open source`,
+     `free image cdn`,
+     `free wordpress cdn`,
+     `image optimization`,
+     `image processing`,
+     `static files`,
+     `optimization`,
+     `cdn`,
+     'web tools',
+     'web performance',
+     'web optimization',
+    ]}
       />
 
       <div className="px-4 py-8">
