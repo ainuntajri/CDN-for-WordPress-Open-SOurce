@@ -1,13 +1,13 @@
 import React from 'react';
 
+import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
+import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
+import Features from '../components/features';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Features from '../components/features';
 import Social from '../components/social';
 import SponsorPlatinum from '../components/sponsor-platinum';
 import SponsorPlatinum2 from '../components/sponsor-platinum2';
-import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
-import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
 
 function IndexPage() {
   return (
@@ -103,7 +103,11 @@ function IndexPage() {
 
         <section className="mb-20 max-w-5xl mx-auto px-4 md:px-0">
           <label class="block">
-            <input type="text" class="form-input block w-full p-4 border-gray-600" placeholder="Search packages on npm" />
+            <input
+              type="text"
+              class="form-input block w-full p-4 border-gray-600"
+              placeholder="Search packages on npm"
+            />
           </label>
         </section>
 
