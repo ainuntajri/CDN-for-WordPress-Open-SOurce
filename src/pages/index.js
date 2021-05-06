@@ -13,22 +13,21 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-  title =
-      "Optimization &amp; CDN for images, CSS, JavaScript, open source, and much more"
-        keywords={
-    [`statically`,
-     `open source`,
-     `free image cdn`,
-     `free wordpress cdn`,
-     `image optimization`,
-     `image processing`,
-     `static files`,
-     `optimization`,
-     `cdn`,
-     'web tools',
-     'web performance',
-     'web optimization',
-    ]}
+        title="Optimization &amp; CDN for images, CSS, JavaScript, open source, and much more"
+        keywords={[
+          `statically`,
+          `open source`,
+          `free image cdn`,
+          `free wordpress cdn`,
+          `image optimization`,
+          `image processing`,
+          `static files`,
+          `optimization`,
+          `cdn`,
+          'web tools',
+          'web performance',
+          'web optimization',
+        ]}
       />
 
       <div className="px-4 py-8">
@@ -104,7 +103,11 @@ function IndexPage() {
 
         <section className="mb-20 max-w-5xl mx-auto px-4 md:px-0">
           <label class="block">
-            <input type="text" class="form-input block w-full p-4 border-gray-600" placeholder="Search packages on npm" />
+            <input
+              type="text"
+              class="form-input block w-full p-4 border-gray-600"
+              placeholder="Search packages on npm"
+            />
           </label>
         </section>
 
